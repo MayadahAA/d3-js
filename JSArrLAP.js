@@ -90,8 +90,8 @@ const isSomeBlue = characters.some(function (x) {
 });
 console.log(isSomeBlue);
 
-const isSome210 = characters.some(function (height) {
-    return height > 2.10;
+const isSome210 = characters.some(function (x) {
+    return x.height > 2.10;
 
 });
 console.log(isSome210);
